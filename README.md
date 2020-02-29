@@ -22,10 +22,14 @@ If you are unfamiliar with special characters, take a look at [some examples](ht
 6. The next question ask if you want Numbers and only accept numbers from 0-9
 
 Then it generates a random password based on the criteria chosen
-
+```
 ## Screenshot
 
+![The screenshot of one of the prompts](Screenshot.png)
 
-![The screenshot of one of the prompts](file:///C:/Users/loisa/Desktop/code/passwordGenerator/Screenshot.png)
+## Link To GitHub
+Github: https://github.com/loisaleghe/passwordGenerator
+GitHub published page: https://loisaleghe.github.io/passwordGenerator/
+
 
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
