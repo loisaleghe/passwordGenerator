@@ -1,55 +1,31 @@
-# 03 JavaScript: Password Generator
+# Password Generator Based on User's Requirement
 
 Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
 If you are unfamiliar with special characters, take a look at [some examples](https://www.owasp.org/index.php/Password_special_characters).
 
-## User Story
-
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
-
 ## Acceptance Criteria
 
 ```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
+1. A series of prompts are shown when button is clicked
+2. Randomly generate password based on criteria chosen
+3. Prompt should request if user wants lowercase, uppercase, special character and numbers
+4. The length of the password should be at least 8 characters and no more than 128 characters
 
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
-
-The following image demonstrates the application functionality:
-
-![password generator demo](./Assets/03-javascript-homework-demo.png)
-
-## Review
-
-You are required to submit the following for review:
-
-- The URL of the deployed application.
-
-- The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
+## Methods For The App
 ---
+1. Click the generate button and the first prompt will ask for the size you want 
+2. If it is less than 8 characters, greater than 128 or it is not an integer the program will close
+3. The next question ask if you want lowercase and only accept lower case alphabets from a-z
+4. The next question ask if you want uppercase and only accept upper case alphabets from A-Z
+5. The next question ask if you want special character and only accept special characters
+6. The next question ask if you want Numbers and only accept numbers from 0-9
+
+Then it generates a random password based on the criteria chosen
+
+## Screenshot
+
+
+![Image description](2020-02-27 (2).png)
 
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
