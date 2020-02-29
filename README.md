@@ -26,6 +26,6 @@ Then it generates a random password based on the criteria chosen
 ## Screenshot
 
 
-![Image description](2020-02-27 (2).png)
+![Image description](file:///C:/Users/loisa/Desktop/code/passwordGenerator/2020-02-27%20(2).png)
 
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
